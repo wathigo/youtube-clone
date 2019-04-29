@@ -33,10 +33,11 @@
 .image{
   width: 100%;
 }
-div h3{
-  margin: 0
-}
+
 div p{
   opacity: 0.5;
-  margin: 0
+}
+
+.no-margin {
+  margin: 0;
 }
