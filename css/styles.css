@@ -1,0 +1,27 @@
+#main {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  grid-template-columns: 60% 40%;
+  grid-row-gap: 40px;
+  grid-column-gap: 30px;
+  width: 100%;
+}
+.navbar {
+  grid-column: 1 / 3;
+  width: 100%;
+}
+.video-section {
+  background-color: green;
+}
+.sidebar {
+  background-color: red;
+}
+.search-form {
+  width: 40%;
+  margin: 0 auto;
+}
+#search {
+  width: 100%;
+  border-radius: 0;
+  padding: 8px;
+}
