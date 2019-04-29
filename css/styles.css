@@ -13,7 +13,8 @@
 .video-section {
 
 }
-.sidebar {
+.img-container:hover {
+  cursor: pointer;
 }
 .search-form {
   width: 40%;
